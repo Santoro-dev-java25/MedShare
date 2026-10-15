@@ -64,7 +64,7 @@ public class LoteService {
             throw new IllegalStateException("Farmacia ainda nao foi aprovada pelo Administrador");
         }
 
-        if(quantidade >= 0){
+        if(quantidade <= 0){
             throw new IllegalArgumentException("A quantidade deve ser maior que zero");
         }
         if(precoOriginal.compareTo(BigDecimal.ZERO) < 0){
