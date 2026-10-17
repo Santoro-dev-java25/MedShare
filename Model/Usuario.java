@@ -1,5 +1,6 @@
 package com.medshare.medshare.Model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.medshare.medshare.Enums.TipoUsuario;
 import jakarta.persistence.*;
 
@@ -18,6 +19,7 @@ public abstract class Usuario {
     @Column(nullable = false, unique = true)
     private String email;
 
+    @JsonIgnore
     @Column(nullable = false)
     private String senha;
 
