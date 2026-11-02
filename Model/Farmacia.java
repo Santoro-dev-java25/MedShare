@@ -37,8 +37,8 @@ public class Farmacia extends Usuario {
         return endereco;
     }
 
-    public void setEndereco(String endereaco) {
-        this.endereco = endereaco;
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 
     public boolean isAprovado() {
