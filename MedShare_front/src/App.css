@@ -1,0 +1,12 @@
+body { margin: 0; background: #f4f6f5; font-family: Inter, sans-serif; }
+.grade { display: grid; grid-template-columns: repeat(3, 288px); gap: 24px; padding: 48px; }
+.card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+.card-imagem { height: 160px; background: #dfe6e4; position: relative; }
+.selo-desconto { position: absolute; top: 12px; right: 12px; background: #e8590c; color: white; padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; }
+.selo-validade { position: absolute; left: 12px; bottom: 12px; background: white; color: #e8590c; padding: 4px 10px; border-radius: 6px; font-size: 12px; }
+.card-corpo { padding: 16px; }
+.card-desc { color: #6b7b78; font-size: 13px; margin: 4px 0 16px; }
+.card-rodape { display: flex; justify-content: space-between; align-items: center; }
+.preco-original { display: block; text-decoration: line-through; color: #8a9a97; font-size: 13px; }
+.preco-final { font-size: 18px; color: #0f4c4a; }
+button { background: #0f4c4a; color: white; border: 0; border-radius: 8px; padding: 12px 24px; font-weight: 600; cursor: pointer; }

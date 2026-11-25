@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Símbolo MedShare</title>
+  <rect width="64" height="64" rx="16" fill="#102b56"/>
+  <path d="M27 14h10v13h-3l-7 7v3H14V27h13z" fill="#fff"/>
+  <path d="M37 27h13v10H37v13H27V38z" fill="#ff5a66"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 282 80" role="img" aria-labelledby="name">
+  <title id="name">MedShare</title>
+  <rect x="8" y="8" width="64" height="64" rx="16" fill="#102b56"/>
+  <path d="M35 22h10v13h-3l-7 7v3H22V35h13z" fill="#fff"/>
+  <path d="M45 35h13v10H45v13H35V46z" fill="#ff5a66"/>
+  <text x="88" y="54" font-family="Inter, Arial, sans-serif" font-size="41" font-weight="750" letter-spacing="-1.8" fill="#102b56">Med<tspan fill="#c7283e">Share</tspan></text>
+</svg>
